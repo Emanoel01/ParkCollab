@@ -1,0 +1,46 @@
+.main-div-menu {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.div-logo{
+    width: 10%;
+    height: 100%;
+    background-color: white;
+}
+
+.options{
+    width: 90%;
+    height: 100%;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.option{
+    width: 250px;
+    height: 100%;
+    background-color: black;
+}
+
+.button-option{
+    border:none;
+    background-color: black;
+    color: white;
+    /* margin-top: 10px; */
+    font-size: 25px;
+    width: 80%;
+    height: 100%;
+}
+
+.button-option:hover {
+    background-color: grey !important;
+    border-radius: 10px !important;
+    transition: 1s !important;
+}
