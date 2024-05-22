@@ -26,6 +26,10 @@ export default function Login(){
                 </div>
                 <div className={'middle-container-child'}>
                     <button className={'button-login'} onClick={() => login()}>ENTRAR</button>
+                    <br/>
+                    <a href="/forgotPassword">ESQUECI A SENHA</a>
+                    <br/>
+                    <a href="/singup">CRIAR CONTA</a>
                 </div>
             </div>
 

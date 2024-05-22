@@ -1,0 +1,80 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.main-singup {
+    background-image: url("../../images/estacionamento4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+select {
+    width: 80%;
+    height: 30px;
+    font-size: 20px;
+}
+
+.child-singup {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 600px;
+    height: 98%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+input {
+    margin-top: 2px;
+    height: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.child-singup-type-1 {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 600px;
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+
+.child-singup-type-2 {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 600px;
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
