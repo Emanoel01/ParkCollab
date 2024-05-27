@@ -5,3 +5,15 @@ services:
     build: "./frontend"
     ports:
       - "3000:3000"
+
+  db:
+    container_name: database_mssql
+    build:
+      context: "./"
+      dockerfile: "DockerFileDB"
+    environment:
+      - SA_PASSWORD=Pass@word
+      - ACCEPT_EULA=Y
+      - MSSQL_DB=parkcollab
+    ports:
+      - "1433:1433"
